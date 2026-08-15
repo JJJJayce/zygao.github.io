@@ -19,7 +19,6 @@ redirect_from:
   <nav class="profile__links" aria-label="Profile links">
     <a href="mailto:{{ site.author.email }}">Email</a>
     <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a>
-    <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a>
     <a href="https://www.hkust-gz.edu.cn/" target="_blank" rel="noopener">HKUST(GZ)</a>
   </nav>
 </header>

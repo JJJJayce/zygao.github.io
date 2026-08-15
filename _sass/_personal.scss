@@ -67,6 +67,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--link); outline-
   display: block;
   width: 156px;
   height: 156px;
+  grid-row: 1 / span 3;
   object-fit: cover;
   border: 1px solid #d8d9dd;
   border-radius: 8px;
@@ -94,6 +95,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--link); outline-
 }
 .profile__intro { max-width: 610px; margin: 0 0 1.25rem; color: #3e4147; }
 .profile__links { display: flex; flex-wrap: wrap; gap: .45rem 1.15rem; margin: 0; }
+.profile__intro, .profile__links { grid-column: 2; }
 .profile__links a { font-size: .86rem; text-decoration: none; }
 .profile__links a:hover { text-decoration: underline; }
 
@@ -161,7 +163,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--link); outline-
   .masthead__inner-wrap { padding: .5rem 1rem; }
   .home { width: min(100% - 2rem, 880px); padding-top: 3rem; }
   .profile { grid-template-columns: 100px minmax(0, 1fr); gap: 1.3rem; }
-  .profile__avatar { width: 100px; height: 100px; }
+  .profile__avatar { width: 100px; height: 100px; grid-row: auto; }
   .profile__intro, .profile__links { grid-column: 1 / -1; }
   .profile h1 { font-size: 2.35rem; }
   .profile__role { margin-bottom: 0; font-size: .9rem; }
