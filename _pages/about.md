@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-excerpt: "Graduate student at HKUST(GZ), working on large models, Triton operator generation, NLP, and data mining."
+excerpt: "Algorithm Engineer at Tencent TEG, working on large models, Triton operator generation, NLP, and data mining."
 author_profile: false
 redirect_from:
   - /about/
@@ -13,9 +13,9 @@ redirect_from:
   <div class="profile__heading">
     <p class="profile__eyebrow">Hello, I’m</p>
     <h1>Zhenye Gao</h1>
-    <p class="profile__role">Graduate Student<br>Information Hub, HKUST(GZ)</p>
+    <p class="profile__role">Algorithm Engineer<br>Tencent TEG</p>
   </div>
-  <p class="profile__intro">I am a second-year graduate student at the Information Hub of the Hong Kong University of Science and Technology (Guangzhou). My research interests include large model algorithms, Triton operator generation, natural language processing, and data mining.</p>
+  <p class="profile__intro">I am an Algorithm Engineer at Tencent TEG. I completed my graduate studies at the Information Hub of the Hong Kong University of Science and Technology (Guangzhou). My interests include large model algorithms, Triton operator generation, natural language processing, and data mining.</p>
   <nav class="profile__links" aria-label="Profile links">
     <a href="mailto:{{ site.author.email }}">Email</a>
     <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a>
