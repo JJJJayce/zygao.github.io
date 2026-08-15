@@ -1,7 +1,6 @@
 ---
 layout: home
 permalink: /
-title: "Zhenye Gao"
 excerpt: "Graduate student at HKUST(GZ), working on large models, Triton operator generation, NLP, and data mining."
 author_profile: false
 redirect_from:
